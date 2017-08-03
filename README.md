@@ -1,11 +1,13 @@
-**Sample nightwatch.js test environment for Linux**
+**Sample nightwatch.js test environment for Windows 10**
 
-Chromedriver version: 2.31
+Chromedriver Version: 2.31
 
-Geckodriver version: 0.18.0
+Geckodriver Version: 0.18.0
 
-Selenium standalone server version: 3.4.0
+MicrosoftWebDriver Version: 4.15063 | Edge version supported: 15.15063
+
+Selenium standalone server Version: 3.4.0
 
 Nightwatch.js version: 0.9.16
 
-_Requirements_: openjdk, nodejs and npm installed and updated
+_Requirements_: jdk, nodejs and npm installed and updated
