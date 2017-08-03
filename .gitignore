@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+# WebStrorm specific
+.idea/
+
+# Drivers and selenium server
+Drivers/
+
+# node modules
+node_modules/
+
+# logs
+Logs/
+
+# XML tests output
+Output/
