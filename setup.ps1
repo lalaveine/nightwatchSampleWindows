@@ -42,7 +42,7 @@ Remove-Item $outfile
 
 # Install driver for Microsoft Edge
 $url = 'https://download.microsoft.com/download/3/4/2/342316D7-EBE0-4F10-ABA2-AE8E0CDF36DD/MicrosoftWebDriver.exe'
-$outfile = '.\Drivers\MicrosoftWebDriver.exe'
+$outfile = $invocationPath + '\Drivers\MicrosoftWebDriver.exe'
 Write-Output 'Downloading Microsoft Web Driver...'
 $webClient.DownloadFile($url, $outfile)
 
