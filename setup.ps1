@@ -21,7 +21,7 @@ $webClient.DownloadFile($url, $outfile)
 # For this command PowerShell v5 is required
 # Use $PSVersionTable.PSVersion to determine what version of PowerShell you are running
 Write-Output 'Extracting chromedriver archive...'
-Expand-Archive $chromedriver -DestinationPath .\Drivers\
+Expand-Archive .\chromedriver_win32.zip -DestinationPath .\Drivers\
 Write-Output 'Removing chromedriver archive...'
 Remove-Item $chromedriver
 
