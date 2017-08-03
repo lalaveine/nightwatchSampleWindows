@@ -12,13 +12,14 @@
 
   "selenium" : {
     "start_process" : true,
-    "server_path" : "Drivers/selenium-server-standalone-3.4.0.jar",
+    "server_path" : "Drivers/selenium-server.jar",
     "log_path" : "Logs/Selenium",
     "host" : "127.0.0.1",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "Drivers/chromedriver",
-      "webdriver.gecko.driver" : "Drivers/geckodriver"
+      "webdriver.chrome.driver" : "Drivers/chromedriver.exe",
+      "webdriver.gecko.driver" : "Drivers/geckodriver.exe",
+      "webdriver.edge.driver" : "Drivers/MicrosoftWebDriver.exe"
     }
   },
 
@@ -34,6 +35,7 @@
         "path" : ""
       },
       "desiredCapabilities" : {
+        "platform" : "Windows 10",
         "browserName" : "chrome",
         "javascriptEnabled" : true,
         "acceptSslCerts" : true
